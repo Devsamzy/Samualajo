@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="body">;
+        <h1>login</h1>mojouwaadesoa
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Your Name..." id="name">
+        <br>
+        <label for="bussiness">Email: </label>
+        <input type="email" name="emial" placeholder="Your Email..." id="email">
+        <br>
+        <label for="name">Password:</label>
+        <input type="password" name="password" placeholder="Password..." id="password">
+
+        <button type="submit" id="btn" onclick="register()">submit</button>
+        
+        
+    </div>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCr3wn9iLX-lJtt7k3yVAnfMAFkWa67Moc",
+      authDomain: "leusam-daf62.firebaseapp.com",
+      projectId: "leusam-daf62",
+      storageBucket: "leusam-daf62.appspot.com",
+      messagingSenderId: "259655176674",
+      appId: "1:259655176674:web:95fe7d0fdbd49d193229bb"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth=firebase.auth();
+    const database=firebase.database()
+
+    function register(){
+        email=document.querySelector("#email").value;
+        name=document.querySelector("#name").value;
+        password=document.querySelector("#password").value;
+    }
+    auh.creae
+
+  </script>
+<!-- <script type="module" src="firebase.js"></script> -->
+
+</html>

@@ -1,0 +1,101 @@
+@font-face {
+    font-family: fa;
+    src: url(Monoton-Regular.ttf);
+  }
+#aboutus{
+    position: relative;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0.329);
+    width: 97%;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 0;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+}#aboutus h1{
+    font-family: fa;font-weight: 100;
+    border-bottom: 2px solid orangered;
+}
+#aboutus .text{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 60px;
+    word-spacing: 8px;
+}
+#contact{
+    position: relative;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0.329);
+    width: 97%;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 0;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    font-size: 30px;
+}#contact h1{
+    font-family: fa;font-weight: 100;
+    border-bottom: 2px solid orangered;
+}
+#contact .text{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 100px;
+    word-spacing: 8px;
+    padding: 10px;
+}
+#contact .text a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid orangered;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#contact .text textarea{
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(182, 182, 182);
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.671);
+}
+#contact .text input{
+    color: white;
+    background-color: orangered;
+    width: 40%;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 10px;
+}
+#support{
+        position: relative;
+        border-radius: 10px;
+        border: solid 1px rgba(255, 255, 255, 0.329);
+        width: 97%;
+        text-align: center;
+        padding: 50px;
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 0;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        font-size: 30px;
+    }#support h1{
+        font-family: fa;font-weight: 100;
+        border-bottom: 2px solid orangered;
+    }
+    #support .text{
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 60px;
+        word-spacing: 8px;
+    }
